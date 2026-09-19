@@ -1,0 +1,6 @@
+{
+  "name": "FDP - Professional PDF Editor",
+  "description": "Professional PDF Editor and AI Suite with advanced editing, form filling, page organization, digital signatures, and Gemini AI-powered tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
