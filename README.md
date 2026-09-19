@@ -50,3 +50,47 @@ Click **Export** to save your edited work locally as:
 * Microsoft Word (`.rtf`)
 * Plain Text, Markdown, or HTML
 * JSON Backup
+
+
+🚀 Installation & Setup
+Since this application runs entirely in the browser with zero backend dependencies, setting it up locally is fast and straightforward.
+
+Prerequisites
+Before you begin, ensure you have the following installed on your local machine:
+
+Git
+
+Node.js (v16.0 or higher recommended)
+
+npm (or yarn / pnpm)
+
+🛠️ Local Development Setup
+1. Clone the repository
+Open your terminal and run the following command to clone the project:
+
+Bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+2. Install dependencies
+Install the required packages using your preferred package manager:
+
+Bash
+npm install
+# or if using yarn: yarn install
+3. Start the development server
+Launch the local development environment:
+
+Bash
+npm run dev
+# or if using yarn: yarn dev
+The application will now be running locally. Open http://localhost:3000 (or the port specified in your terminal) in your browser to start editing PDFs.
+
+📦 Building for Production
+To create an optimized, production-ready build of the application:
+
+Bash
+npm run build
+This will generate a dist or build folder containing all your static assets. Because this suite requires zero backend, you can simply upload this folder to any static hosting provider—such as Vercel, Netlify, GitHub Pages, or AWS S3—and your app will be live globally.
+
+
+<img width="1057" height="813" alt="image" src="https://github.com/user-attachments/assets/5878947d-f459-4f3c-b172-8a291cb98bfb" />
